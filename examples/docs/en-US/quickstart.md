@@ -86,7 +86,7 @@ new Vue({
 })
 ```
 
-Full example (Component list reference [components.json](https://github.com/ElemeFE/element/blob/carbon/components.json))
+Full example (Component list reference [components.json](https://github.com/ElemeFE/element/blob/master/components.json))
 
 ```javascript
 import Vue from 'vue'
@@ -176,6 +176,7 @@ Vue.use(Radio)
 Vue.use(RadioGroup)
 Vue.use(RadioButton)
 Vue.use(Checkbox)
+Vue.use(CheckboxButton)
 Vue.use(CheckboxGroup)
 Vue.use(Switch)
 Vue.use(Select)

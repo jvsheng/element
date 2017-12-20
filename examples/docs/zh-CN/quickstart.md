@@ -86,7 +86,7 @@ new Vue({
 })
 ```
 
-完整组件列表和引入方式（完整组件列表以 [components.json](https://github.com/ElemeFE/element/blob/carbon/components.json) 为准）
+完整组件列表和引入方式（完整组件列表以 [components.json](https://github.com/ElemeFE/element/blob/master/components.json) 为准）
 
 ```javascript
 import Vue from 'vue'
@@ -176,6 +176,7 @@ Vue.use(Radio)
 Vue.use(RadioGroup)
 Vue.use(RadioButton)
 Vue.use(Checkbox)
+Vue.use(CheckboxButton)
 Vue.use(CheckboxGroup)
 Vue.use(Switch)
 Vue.use(Select)

@@ -1,5 +1,76 @@
 ## Changelog
 
+### 2.0.8
+
+*2017-12-12*
+
+- Added Spanish documentation
+- Fixed `show-timeout` of Dropdown not working when trigger is click, #8734 (by @presidenten)
+- Fixed Form validation timing for rules whose trigger is blur, #8776
+- Fixed blur event of ranged DatePicker, #8784
+- `format` of TimePicker now supports AM/PM, #8620 (by @firesh)
+
+### 2.0.7
+
+*2017-11-29*
+
+- Fixed disabled text button style, #8570
+
+### 2.0.6
+
+*2017-11-29*
+
+- Fixed style bug of Table's sorting icons, #8405
+- Fixed trigger mechanism for Popover when its `trigger` is manual, #8467
+- Added `prefix-icon` and `suffix-icon` attributes for Autocomplete, #8446 (by @liyanlong)
+- Added `separator` attribute for Cascader, #8501
+- Added `clearable` attribute for Input, #8509 (by @lbogdan)
+- Added `background` attribute for Pagination, #8553
+
+### 2.0.5
+
+*2017-11-17*
+
+- Fixed Popover, Tree, Breadcrumb and Cascader regression in 2.0.4, #8188 #8217 #8283
+- Fixed memory leak of clickoutside directive, #8168 #8225 (by @badpunman @STLighter)
+- Fixed multiple Select height when its value is cleared, #8317 (by @luciy)
+- Added `collapse-tags` attribute for multiple Select to replace tags with one line of text, #8190
+- Fixed high CPU consumption caused by hidden Table, #8351
+- Now you can use `doLayout` method of Table to update its layout, #8351
+
+### 2.0.4
+
+*2017-11-10*
+
+- Improved accessibility for Cascader, Dropdown, Message, Notification, Popover, Tooltip and Tree
+- Fixed Container resize when the width of viewport decreases, #8042
+- Fixed Tree's `updateKeyChildren` incorrectly deleting child nodes, #8100
+- Fixed bordered CheckboxButton's height when nested in a Form, #8100
+- Fixed Menu's parsing error for custom colors, #8153 (by @zhouyixiang)
+
+### 2.0.3
+
+*2017-11-03*
+
+- Fixed `editable` and `readonly` attributes for ranged DatePicker, #7922
+- Fixed style error of nested Tabs, #7941
+- Fixed style error of the last Step of vertical Steps, #7980
+- Fixed trigger timing of `current-change` event for Pagination, #7995
+- Fixed unregistered Tooltip in Menu, #7995
+
+### 2.0.2
+
+*2017-10-31*
+
+- Now right-clicking the buttons of InputNumber won't change its value, #7817
+- `validate` method of Form can now wait for asynchronous validations before executing its callback, #7774 (by @Allenice)
+- Fixed range selection of DatePicker not working in Chromium 53-57 browsers, #7838
+- Fixed missing preview and delete icons of Upload when its `list-type` is picture-card, #7857
+- Added `sort-by` attribute for TableColumn, #7828 (by @wangfengming)
+- Fixed DatePicker sometimes displaying wrong year number when selecting the first week in week mode, #7860 (by @hh23485)
+- Fixed icon style error of vertical Steps, #7891
+- The hot area for node arrows in Tree is expanded, #7891
+
 ### 2.0.1
 
 *2017-10-28*

@@ -1,5 +1,76 @@
 ## 更新日志
 
+### 2.0.8
+
+*2017-12-12*
+
+- 新增西班牙语文档
+- 修复 `show-timeout` 对点击触发的 Dropdown 无效的问题，#8734（by @presidenten）
+- 修复 Form 对于 `trigger` 为 blur 的校验规则触发时机有误的问题，#8776
+- 修复 DatePicker 在范围选择时 blur 事件触发时机有误的问题，#8784
+- TimePicker 的 `format` 新增对 AM/PM 的支持，#8620（by @firesh）
+
+### 2.0.7
+
+*2017-11-29*
+
+- 修复禁用文字按钮的样式问题，#8570
+
+### 2.0.6
+
+*2017-11-29*
+
+- 修复 Table 排序图标的样式问题，#8405
+- 修复 `trigger` 为 manual 的 Popover 的触发问题，#8467
+- 新增 Autocomplete 的 `prefix-icon` 和 `suffix-icon` 属性，#8446（by @liyanlong）
+- 新增 Cascader 的 `separator` 属性，#8501
+- 新增 Input 的 `clearable` 属性，#8509（by @lbogdan）
+- 新增 Pagination 的 `background` 属性，#8553
+
+### 2.0.5
+
+*2017-11-17*
+
+- 修复上个版本引入的 Popover、Tree、Breadcrumb、Cascader 的 bug，#8188 #8217 #8283
+- 修复 clickoutside 指令的内存泄露问题，#8168 #8225（by @badpunman @STLighter）
+- 修复默认尺寸的多选 Select 在清空选项后输入框高度不随之更新的问题，#8317（by @luciy）
+- 新增 Select 的 `collapse-tags` 属性，用于在多选时以文字代替 Tag，避免组件高度的增大，#8190
+- 修复被隐藏的 Table 会造成 CPU 占用持续增加的问题，#8351
+- 开放 Table 的 `doLayout` 方法，用于重新计算 Table 的布局，#8351
+
+### 2.0.4
+
+*2017-11-10*
+
+- 提升 Cascader、Dropdown、Message、Notification、Popover、Tooltip、Tree 的可访问性
+- 修复当视口变窄时 Container 无法同步更新其宽度的问题，#8042
+- 修复 Tree 的 `updateKeyChildren` 在删除子节点时的行为错误，#8100
+- 修复带有边框的 CheckboxButton 在 Form 中高度错误的问题，#8100
+- 修复 Menu 在解析自定义颜色时的错误，#8153（by @zhouyixiang）
+
+### 2.0.3
+
+*2017-11-03*
+
+- 修复范围选择的 DatePicker `editable` 和 `readonly` 属性无法正常工作的问题，#7922
+- 修复嵌套的 Tabs 的样式错误，#7941
+- 修复纵向 Steps 中最后一个 Step 的样式错误，#7980
+- 修复 Pagination 的 `current-change` 事件触发时机错误的问题，#7995
+- 修复由于 Menu 使用了未注册的 Tooltip 造成其在按需引入时报错的问题，#7995
+
+### 2.0.2
+
+*2017-10-31*
+
+- 在 InputNumber 的加减按钮上单击鼠标右键不再触发值的改变，#7817
+- Form 的 `validate` 方法现在能够正确地在异步校验完成后执行回调了，#7774（by @Allenice）
+- 修复 DatePicker 的范围选择在内核为 Chromium 53-57 的浏览器中无法使用的问题，#7838
+- 修复 `list-type` 为 picture-card 的 Upload 预览和删除图标丢失的问题，#7857
+- 新增 TableColumn 的 `sort-by` 属性，#7828（by @wangfengming）
+- 修复周模式下的 DatePicker 在选择某年第一周可能会显示为前一年第一周的问题，#7860（by @hh23485）
+- 修复垂直模式的 Steps 中图标宽度的样式错误，#7891
+- 增大了 Tree 中展开箭头的点击热区，#7891
+
 ### 2.0.1
 
 *2017-10-28*
